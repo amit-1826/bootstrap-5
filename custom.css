@@ -1,0 +1,19 @@
+.main {
+    background-color: blue;
+}
+
+.sidebar {
+    background-color: cornflowerblue;
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+}
+
+.column {
+    padding: 1rem;
+    background-color: #33b5e5;
+    text-align: center;
+    border: 2px solid #ffffff;
+    color: cornsilk;
+}

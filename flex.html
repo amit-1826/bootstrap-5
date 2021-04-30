@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+    <style>
+        .col{
+            min-height: 40vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- flexbox in bootstrap -->
+    <!-- d-flex -->
+    <!-- justify-content   for horizontal -->
+    <!-- justify-content-around/end/start/center/between -->
+    <!-- align-items for vertical -->
+    <!-- align-items-center/start/end -->
+    <!-- only direct children -->
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger d-flex justify-content-around align-items-center">
+                <!-- <span>Hello </span>
+                <span>Hello 2 </span> -->
+                <p class="bg-warning align-self-start">Hello p world.!!</p>
+                <p class="bg-success">Hello p world again.!!</p>
+                <p class="bg-success align-self-end">Hello p world again and again.!!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col bg-success">
+                This is single column.
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-primary">Column1</div>
+            <div class="col bg-info">Column2</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-lg-4 col-xl-5 bg-warning">Column1</div>
+            <div class="col-md-3 col-sm-6 col-lg-4 col-xl-5 bg-danger">Column2</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 bg-danger">I am three</div>
+            <div class="col-sm-6 bg-info">I am six</div>
+            <div class="col-sm-3 bg-success">I am three
+                <div class="row">
+                    <div class="col-6 bg-primary">I am half</div>
+                    <div class="col-6 bg-danger">I am other half</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

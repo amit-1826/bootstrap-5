@@ -1,0 +1,5 @@
+icons - font awesome icons
+fonts - google fonts
+images - pexels
+colors - https://coolors.co/
+
