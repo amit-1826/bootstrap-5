@@ -16,6 +16,35 @@
 </head>
 <body>
 
+    <!-- navbar -->
+
+    <nav class="navbar py-3 navbar-light navbar-expand-sm bg-primary">
+        <a href="#" class="navbar-brand text-uppercase font-italic">First Website</a>
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav">
+                <li class="navbar-item active">
+                    <a href="#header" class="nav-link">home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#skills" class="nav-link">skills</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#projects" class="nav-link">projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="nav-link">about</a>
+                </li>     
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
     <!-- start of header section -->
     <header id="header" class="bg-dark">
         <div class="container">
@@ -442,17 +471,15 @@
                             </div>
 
                             <div class="input-group my-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">
-                                        <i class="fas fa-user"></i>
-                                    </span>
-                                </div>
-                                <input type="text" placeholder="username" class="form-control">
-
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary">Submit</button>
-                                </div>
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input type="text" id="username-append" placeholder="username" class="form-control">
+                                <button class="btn btn-primary input-group-text">Submit</button>
                             </div>
+
+                            <button class="btn w-100 btn-outline-primary btn-block text-uppercase text-white" type="submit">Sign up Here</button>
+
                         </form>
                     </div>
                 </div>
@@ -466,7 +493,249 @@
     </section>
 
     <!-- end of contact section -->
-    
+
+    <!-- review section -->
+   
+    <section id="review" class="py-5 bg-danger">
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-uppercase text-dark">Review</h1>
+                    <div class="title-underline bg-warning"></div>
+                    <p class="text-muted mt-2">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/team-1.jpg" class="img-fluid rounded-circle d-none d-md-block" alt="">
+
+                </div>
+                <div class="col-md-6 my-4">
+                    <blockquote class="blockquote text-right">
+                        <p>
+                            <i class="fas fa-quote-left fa-3x"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta impedit, labore modi nisi eum dignissimos.
+                        </p>
+                        <footer class="blockquoter-footer text-left">Master Coder</footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- end of review section -->
+
+    <!-- progress section -->
+    <section id="progress" class="py-5 background-filler">
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-uppercase text-white">Progress</h1>
+                    <div class="title-underline bg-primary"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h3 class="text-light">html</h3>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-success" style="width: 20%;"></div>
+                    </div>
+
+                    <h3 class="text-light">css</h3>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-info" style="width: 60%;"></div>
+                    </div>
+
+                    <h3 class="text-light">bootstrap</h3>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-warning" style="width: 80%;"></div>
+                    </div>
+
+                    <div class="d-flex text-white my-2 justify-content-between">
+                        <h3>javascript</h3>
+                        <h3>80%</h3>
+                    </div>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-success" style="width: 20%;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of progress section -->
+
+    <!-- pricing section -->
+
+    <section id="pricing" class="py-5 bg-secondary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-uppercase text-dark">Pricing</h1>
+                    <div class="title-underline bg-primary"></div>
+                    <p class="text-light mt-2">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>Standard</h3>
+                        </div>
+
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>5<sub>/month</sub>
+                            </h4>
+                        </div>
+
+                        <ul class="list-group list group-flush text-center">
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                        </ul>
+
+                        <div class="card-footer">
+                            <a href="" class="btn w-100 btn-outline-dark btn-block text-capitalize">Sign up</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>Basic</h3>
+                        </div>
+
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>10<sub>/month</sub>
+                            </h4>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list group-flush text-center">
+                                <li class="list-group-item">
+                                    Lorem, ipsum dolor.
+                                </li>
+                                <li class="list-group-item">
+                                    Lorem, ipsum dolor.
+                                </li>
+                                <li class="list-group-item">
+                                    Lorem, ipsum dolor.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card-footer">
+                            <a href="" class="btn w-100 btn-outline-dark btn-block text-capitalize">Sign up</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-uppercase text-center py-4">
+                            <h3>Pro</h3>
+                        </div>
+
+                        <div class="card-title text-center my-3">
+                            <h4>
+                                <sup>$</sup>15<sub>/month</sub>
+                            </h4>
+                        </div>
+
+                        <ul class="list-group list group-flush text-center">
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                            <li class="list-group-item">
+                                Lorem, ipsum dolor.
+                            </li>
+                        </ul>
+
+                        <div class="card-footer">
+                            <a href="" class="btn w-100 btn-outline-dark btn-block text-capitalize">Sign up</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- footer section -->
+    <footer id="footer" class="bg-dark py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-uppercase text-white">Footer</h1>
+                    <div class="title-underline bg-primary"></div>
+                    <p class="text-light mt-2">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn btn-link">
+                        <i class="fab fa-facebook fa-3x"></i>
+                    </a>
+                    <a href="#" class="btn btn-link">
+                        <i class="fab fa-twitter fa-3x"></i>
+                    </a>
+                    <a href="#" class="btn btn-link">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                    <a href="#" class="btn btn-link">
+                        <i class="fab fa-google-plus fa-3x"></i>
+                    </a>
+
+                    <button type="button" class="btn btn-danger d-block mt-3 mx-auto" data-bs-target="#modal" data-bs-toggle="modal">Log Out</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section -->
+
+    <div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Sorry to see you leave</h3>
+                    <button class="btn" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>This is some random modal text.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.js"></script>
