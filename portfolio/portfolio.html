@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+    <!-- font awesome icon -->
+    <script src="../bootstrap-5/js/all.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-capitalize">
+                <img src="https://via.placeholder.com/50" class="img-fluid rounded-circle" alt="">
+                Portfolio
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarLinks">
+                <ul class="navbar-nav ms-auto">
+                    <div class="navbar-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="portfolio-overview.html" class="nav-link">Portfolio</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-3">
+
+        <div class="row">
+            <h1 class="text-capitalize"><div class="badge bg-primary">Tag</div> Portfolio item heading</h1>
+            <h2 class="text-capitalize text-muted">Portfolio item sub heading</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mt-3">
+                <div id="example" class="carousel slide" data-bs-ride="carousel">
+                    <!-- indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-bs-target="#example" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#example" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#example" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#example" data-bs-slide-to="3"></li>
+                    </ul>
+                    <!-- images -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/930x700" alt="" class="img-fluid d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/930x700" alt="" class="img-fluid d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/930x700" alt="" class="img-fluid d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/930x700" alt="" class="img-fluid d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- controls -->
+                    <a href="#example" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#example" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <h4 class="text-capitalize fw-bold">Project Description</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, odio placeat ex harum et perspiciatis, earum omnis expedita explicabo alias sequi maiores provident eligendi amet esse fugit culpa quidem quis officia quas laboriosam assumenda quasi minus? A quis cumque libero nisi repellat corporis reprehenderit labore amet vero. Nobis, molestias explicabo!</p>
+
+                <h4 class="text-capitalize">Project Details</h4>
+                <ul>
+                    <li>Description of project </li>
+                    <li>Description of project </li>
+                    <li>Description of project </li>
+                    <li>Description of project </li>
+                </ul>
+
+                <h4>Project Link</h4>
+               <p><i class="fa fa-external-link" aria-hidden="true"></i> <a href="www.google.com" class="btn-link">www.google.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-3">
+        <div class="row">
+            <h4 class="text-capitalize fw-bold">Related projects</h4>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/510x400" class="img-fluid img-thumbnail rounded" alt="">
+                <figcaption class="figure-caption py-2">A caption for the above image.</figcaption>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/510x400" class="img-fluid img-thumbnail rounded" alt="">
+                <figcaption class="figure-caption py-2">A caption for the above image.</figcaption>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/510x400" class="img-fluid img-thumbnail rounded" alt="">
+                <figcaption class="figure-caption py-2">A caption for the above image.</figcaption>
+            </div>
+            <div class="col-md-3">
+                <img src="https://via.placeholder.com/510x400" class="img-fluid img-thumbnail rounded" alt="">
+                <figcaption class="figure-caption py-2">A caption for the above image.</figcaption>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="text-capitalize">
+                        <i class="fa fa-code"></i> Code
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="www.guthub.com"><i class="fa fa-github"></i> Github</a></li>
+                        <li><a href="www.guthub.com"><i class="fa fa-codepen"></i> Codepen</a></li>
+                        <li><a href="www.guthub.com"><i class="fa fa-stack-overflow"></i> Stack overflow</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="text-capitalize">
+                        <i class="fa fa-paint-brush"></i> Design
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Behance</a></li>
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Dribble</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="text-capitalize">
+                        <i class="fa fa-picture-o"></i> Photography
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Flikr</a></li>
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="text-capitalize">
+                        <i class="fa fa-video"></i> Video
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Youtube</a></li>
+                        <li><a href="www.guthub.com"><i class="fa fa-git"></i> Vimeo</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-center mx-auto">&copy; 2020 Firstname Lastname. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="../bootstrap-5/js/bootstrap.js"></script>
+</body>
+</html>
